@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تسجيل حساب جديد</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>إنشاء حساب جديد</h2>
+        <form id="registerForm">
+            <div class="input-group">
+                <label for="newUsername">اسم المستخدم</label>
+                <input type="text" id="newUsername" placeholder="أدخل اسم المستخدم" required>
+            </div>
+            <div class="input-group">
+                <label for="newPassword">كلمة المرور</label>
+                <input type="password" id="newPassword" placeholder="أدخل كلمة المرور" required>
+            </div>
+            <div class="input-group">
+                <label for="confirmPassword">تأكيد كلمة المرور</label>
+                <input type="password" id="confirmPassword" placeholder="أعد إدخال كلمة المرور" required>
+            </div>
+            <button type="submit">تسجيل</button>
+            <p id="error-message" class="error-message"></p>
+        </form>
+        <p>لديك حساب بالفعل؟ <a href="login.html">تسجيل الدخول</a></p>
+    </div>
+    <script src="registr.js"></script>
+  
+</body>
+</html>
