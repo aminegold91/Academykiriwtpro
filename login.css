@@ -6,16 +6,22 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+    background: #42445A;
 }
 
+:root {
+  --bg: #42445A;
+  --color: #F9CB00;
+}
 .login-container {
     background-color: #ffffff;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 100%;
-    max-width: 400px;
+    max-width: 330px;
     text-align: center;
+    background:  var(--color);
 }
 
 h2 {
@@ -26,6 +32,8 @@ h2 {
 .input-group {
     margin-bottom: 15px;
     text-align: left;
+    
+    width: 100%;
 }
 
 label {
@@ -35,7 +43,7 @@ label {
 }
 
 input {
-    width: 100%;
+    width: 93%;
     padding: 10px;
     border: 1px solid #cccccc;
     border-radius: 5px;
